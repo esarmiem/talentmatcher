@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TalentMatcher 🚀
 
-## Getting Started
+![Captura de Pantalla 2025-02-23 a la(s) 12 36 59 p  m](https://github.com/user-attachments/assets/2543f59d-d994-40ec-967a-8ea4b567011f)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**TalentMatcher** es una aplicación web SaaS diseñada para ayudar a pequeñas y medianas empresas a simplificar y optimizar su proceso de reclutamiento. Con TalentMatcher, puedes cargar hojas de vida (CVs) y descripciones de vacantes, y la aplicación analizará automáticamente los candidatos, mostrando en un dashboard cuáles son los mejores matches para el puesto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características principales ✨
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Carga de CVs**: Sube hojas de vida en diferentes formatos (PDF, Word, etc.).
+- **Análisis Automático**: Usa procesamiento de lenguaje natural (NLP) para analizar y comparar CVs con las descripciones de las vacantes.
+- **Dashboard Intuitivo**: Visualiza los resultados del análisis con porcentajes de match, rankings y más.
+- **Notificaciones**: Recibe alertas cuando el análisis esté listo.
+- **Modelo de Pago On-Demand**: Paga solo por los análisis que necesites, sin suscripciones obligatorias.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologías utilizadas 🛠️
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**: Next.js
+- **Backend**: Node.js con Express
+- **Base de Datos**: PostgreSQL
+- **Procesamiento de Datos**: Python (NLTK, SpaCy)
+- **Almacenamiento en la Nube**: AWS S3
+- **Autenticación**: JWT (JSON Web Tokens)
