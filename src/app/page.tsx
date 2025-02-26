@@ -1,4 +1,4 @@
-import HeroGeometric from "@/components/kokonutui/hero-geometric";
+import HeroGeometric from "@/components/epic/hero-geometric";
 
 export default function Home() {
   return (
